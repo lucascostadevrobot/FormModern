@@ -2,22 +2,48 @@
 @media(max-width: 900px){
     #page-home{
         background-position-x: 70vw;
+        margin: 0 auto;
     }
     #page-home .content{
         align-items: center;
         text-align: center;
+        margin: 0 auto;
+
     }
     
 }
 @media (min-width:1700px){
     #page-home{
         background-position-x: 40vw;
+        margin: 0 auto;
+
     } 
 }
 @media (max-height: 570px){
     #page-home{
         background-position-y: 200px;
+        margin: 0 auto;
+
     }  
+}
+
+/*Texto main*/
+@media (max-width: 867px){
+    h1{
+       
+        padding: 100px;
+        padding-left: 200px;
+    }
+    p{
+        padding: 100px;
+        padding-left: 200px;
+        margin-top: -176px;
+    }
+    figure{
+        padding: 100px;
+        padding-left: 200px;
+        margin-top: -176px;
+    }
 }
 
 /*Formulário*/
@@ -25,6 +51,7 @@
     #form-index{
         margin-top: 400px;
         margin: 600 auto;
+        margin-bottom: 100px;
     }
     #form-index{
         align-items: center;
