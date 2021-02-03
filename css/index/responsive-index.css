@@ -10,7 +10,11 @@
     #page-home .content{
         align-items: center;
         text-align: center;
+
+        margin-top: -293px !important;
         margin: 0 auto;
+
+    
 
     }
     
@@ -33,13 +37,20 @@
 /*Texto main*/
 @media (max-width: 867px){
     h1{
-       
+        width: 400px;
+
         padding: 100px;
-        padding-left: 200px;
+        padding-left: 285px;
+        padding-right: 5px;
+
+
+        display: flex;
     }
     p{
+        width: 400px;
+
         padding: 100px;
-        padding-left: 200px;
+        padding-left: 289px;
         margin-top: -176px;
     }
 }
